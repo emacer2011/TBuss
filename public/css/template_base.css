@@ -1,0 +1,36 @@
+body{
+	margin-top: 52px;
+}
+.container{
+	width: 100%;
+}
+.main-container{
+	width: 90%;
+	margin-left: 5%;
+}
+.navbar-propio {
+    background-image: linear-gradient(to bottom, #A8E5F0 0px, #86C4F0 100%);
+    background-repeat: repeat-x;
+    border-radius: 2px;
+	background-color: #86C4F0;
+    border-color: #080808;
+}
+li>a, .navbar-brand{
+	color: #FFFFFF;
+}
+.nav.navbar-nav > li > a:hover, .nav.navbar-nav > li > a:focus {
+    background-color: #35A1C0;
+}
+td{
+	text-align: center;
+}
+.color-app{
+	background-color: #86C4F0;
+}
+.filterTable{
+	width: 20%;
+	float: right;
+}
+.container-error{
+	margin-top: 100px;
+}

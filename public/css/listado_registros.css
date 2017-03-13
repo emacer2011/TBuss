@@ -1,0 +1,43 @@
+#hora {
+  display: inline-block;
+  float: right;
+  font-size: 120px;
+  margin-top: -120px;
+  margin-right: 25px;
+  text-align: center;
+  width: 30%;
+  text-align: right;
+}
+
+#fecha{
+	font-size: 50px;
+	margin-top: -6px;
+	position: absolute;
+	right: 30px;
+  text-align: right;
+}
+
+#ver-panel{
+  position: inherit;
+  visibility: hidden;
+}
+
+#ocultar-panel{
+  position: inherit;
+}
+
+#ver-panel:hover,#ocultar-panel:hover{
+  cursor: pointer;
+}
+
+.jumbotron{
+  padding-top: 0;
+}
+
+.jumbotron>h1{
+  margin-left: 25px;
+}
+
+thead{
+  background-color: #E97A18;
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav ul li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav div ul li:hover, .offcanvas a:focus{
+    color: #ffffff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.navbar-fixed-top {
+    transition: margin-left .5s;
+    /*padding: 16px;*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 45px;}
+  .sidenav ul li {font-size: 18px;}
+}
+
+.sidenav-titulo{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -40px;
+}
+
+#mySidenav > div > ul{
+    padding: 0;
+    width: 100%;
+}
+
+#mySidenav div ul li:hover{
+    background-color: #89B4E0;
+    cursor: pointer;
+    width: 100%;
+}
+
+#myContentUser{
+    margin: 100 0 0 15%;
+}
+
+.filas-ocultas{
+    display: none;
+    background-color: #C4EBD8;
+}
+
+.filas-fijas{
+    background-color: #F9F9F9;
+}
+
+.panel-default{
+    padding: 20px;
+}
+
+.activeMenu{
+    background-color: #89B4E0;
+    color: #FFFFFF;
+}
+
+#menuUrl.activeMenu{
+    color: #FFFFFF;
+}
+
+#menuAltaUrl.activeMenu{
+    color: #FFFFFF;
+}
+
+#menuPermisos.activeMenu{
+    color: #FFFFFF;
+}
+
+#menuRoles.activeMenu{
+    color: #FFFFFF;
+}
